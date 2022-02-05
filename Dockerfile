@@ -1,5 +1,4 @@
 FROM node:alpine
-RUN apt-get install unoconv
 RUN apt-get install libreoffice
 COPY . /app
 WORKDIR /app
