@@ -1,6 +1,6 @@
 FROM node:16
 RUN apt-get update
-COPY . /app
-WORKDIR /app
+COPY . /
+WORKDIR /
 RUN npm install
 CMD ["node", "app.js"]
